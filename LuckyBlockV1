@@ -70,9 +70,9 @@ Char:MoveTo(game.Workspace.Flower.Position)
 		end)
 
 adminscripts:NewButton("Infinite Yield", "Executes Infinite Yield FE Admin", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Hirokai-Script-make/Hicc/refs/heads/main/Infinite%20Yield", true))()
 		end)
-Luckygiver:NewButton("Auto Give Galaxy Block Gears", "Automatically gives you gears every 2 sec", function()
+Luckygiver:NewButton("Spawn Galaxy Block Gears", "Automatically gives you gears every 2 sec", function()
             while true do
             game:GetService("ReplicatedStorage").SpawnGalaxyBlock:FireServer()
             wait(0)
